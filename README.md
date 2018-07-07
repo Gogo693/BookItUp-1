@@ -9,3 +9,5 @@ Team members: <br>
                 <li> Catia </li>
                 <li> Gianpaolo Bontempo https://github.com/mrfreak94 </li>
               </ul>
+              
+Feel free to fork the project and improve it!
