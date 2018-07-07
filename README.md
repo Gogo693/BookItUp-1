@@ -7,5 +7,5 @@ Team members: <br>
               <ul>
                 <li> Giorgio Crepaldi https://github.com/Gogo693 </li>
                 <li> Catia </li>
-                <li> Gianpaolo Bontempo </li>
+                <li> Gianpaolo Bontempo https://github.com/mrfreak94 </li>
               </ul>
