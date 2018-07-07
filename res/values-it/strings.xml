@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="email">Email</string>
+    <string name="address">Bio</string>
+    <string name="bioEditP">Bio [max 250 caratteri]</string>
+    <string name="description">-- vuota --</string>
+    <string name="app_name">gMads_lab1</string>
+    <string name="title_activity_show_profile">showProfile</string>
+    <string name="bio">Bio</string>
+    <string name="profileImage">Immagine Profilo</string>
+    <string name="profileSettingButton">Modifica Profilo</string>
+    <string name="save">Salva</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Annulla</string>
+    <string name="selectFromCamera">Fotocamera</string>
+    <string name="selectGallery">Galleria</string>
+    <string name="saveQuestion">\nVuoi salvare le modifiche?</string>
+    <string name="yes">Si</string>
+    <string name="noInternet">\nInternet assente. Connettiti e riprova.</string>
+    <string name="retry">Riprova</string>
+    <string name="alertUpd">\nSalvataggio avvenuto!</string>
+    <string name="nameExample">Nome</string>
+    <string name="surnameExample">Cognome</string>
+    <string name="bioExample">-- vuoto --</string>
+    <string name="emailExample">esempio@p.com</string>
+    <string name="imageDirectory">ImageDir</string>
+    <string name="selectImage">Cambia foto profilo</string>
+    <string name="takeImage">\nScegli immagine da</string>
+    <string name="addBookImage">\nAggiungi foto libro da</string>
+    <string name="showProfile">Profilo</string>
+    <string name="editProfile">Modifica Profilo</string>
+    <string name="errorEmail">Errore formato email</string>
+    <string name="alertResetDone">reset fatto!</string>
+    <string name="saveProfile">Salva Profilo</string>
+    <string name="addBook">Aggiungi Libro</string>
+    <string name="choose_country">Scegli una nazione</string>
+    <string name="MyBooks">Aggiunti</string>
+    <string name="RentedBooks">Affittati</string>
+    <string name="LentBooks">Prestati</string>
+
+
+    <!--stringhe per dati non trovati-->
+    <string name="notFound">Non trovato</string>
+    <string name="titleNotFound">Titolo: assente</string>
+    <string name="authorNotFound">Autore: assente</string>
+    <string name="descriptionNotFound">Descrizione: assente</string>
+    <string name="publisherNotFound">Editore: assente</string>
+    <string name="pDateNotFound">Data pubblicazione: assente</string>
+    <string name="categoryNotFound">Categoria/e: assente/i</string>
+    <string name="scan2">Oppure inserisci l\'ISBN</string>
+    <string name="scan1">Enter book manually</string>
+    <string name="scan3">Oppure scansionalo</string>
+    <string name="bookTitle">Dettagli Libro</string>
+    <string name="isbnerror">\nL\'ISBN deve essere di 13 numeri</string>
+    <string name="tab1">Tutti</string>
+    <string name="tab2">Noleggiati</string>
+    <string name="tab3">Aggiunti</string>
+    <string name="country">Stato</string>
+    <string name="country_required">Stato richiesto</string>
+    <string name="cap_required">CAP richiesto</string>
+    <string name="name_require">Nome richiesto</string>
+    <string name="surname_required">Cognome richiesto</string>
+    <string name="email_required">Email richiesta</string>
+    <!-- stringhe save book-->
+    <string name="sb_category">Categoria</string>
+    <string name="sb_data">Data</string>
+    <string name="sb_editor">Editore</string>
+    <string name="sb_author">Autore</string>
+    <string name="sb_description">Descrizione</string>
+    <string name="sb_title">Titolo</string>
+    <string name="edit_book">Edit Libro</string>
+    <string name="sb_condition">Condizioni Libro</string>
+    <string name="sb_key">Chiave</string>
+    <string name="sb_value">Valore</string>
+    <string name="sb_info">Info Aggiuntive</string>
+    <string name="sb_main_info">Info principali</string>
+    <string name="saveBook">Salva Libro</string>
+    <string name="of">di</string>
+    <string name="showBook">Dettagli Libro</string>
+
+    <!-- stringhe show profile -->
+    <string name="books">Libri</string>
+    <string name="loaded">Caricati</string>
+    <string name="saved">Salvati</string>
+
+    <!-- stringhe menu_book -->
+    <string name="reserve">Prenota</string>
+    <string name="view_owner_profile">Vedi profilo</string>
+
+    <!-- stringhe book_page-->
+    <string name="bp_title">Titolo</string>
+    <string name="bp_editore">Editore</string>
+    <string name="bp_autore">Autore</string>
+    <string name="bp_owner">Proprietario</string>
+    <string name="bp_categ">Categoria/e</string>
+    <string name="bp_data">Data</string>
+    <string name="bp_descr">Descrizione</string>
+    <string name="bp_condiz">Condizioni</string>
+    <string name="bp_notes">Altri</string>
+    <string name="returnBook">Ritorna Libro</string>
+    <string name="request_sent">Richiesta inviata con successo!</string>
+
+    <!-- navbar -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">La mia Libreria</string>
+    <string name="nav_chat">Chat</string>
+
+    <string name = "message">Messaggio</string>
+    <string name = "library">Libreria</string>
+    <string name = "book_info">Altre Info</string>
+    <string name = "book_photo">Aggiungi una foto del libro</string>
+    <string name = "showbookImage">Foto libro</string>
+
+    <string name = "my_req">Fatte</string>
+    <string name = "others_req">Ricevute</string>
+    <string name = "request">Richieste</string>
+    <string name = "write_review">Scrivi recensione:</string>
+    <string name = "book">Libro: </string>
+    <string name = "review">Recensione</string>
+    <string name = "reviews">Recensioni</string>
+    <string name="accepted">Accepted</string>
+    <string name="insert">Inserisci</string>
+    <string name="permission_denied">permesso camera rifiutato</string>
+    <string name="Failed_to_load_profile">Errore caricamento profilo</string>
+    <string name="failed_book_upload">Errore caricamento libro</string>
+    <string name="title_activity_map_search">Mappa</string>
+    <string name="refused">Rifiutato</string>
+    <string name="pending">Sospeso</string>
+    <string name="completed">Completato</string>
+    <string name="ooops_nothing_found">Ooops...Non trovato!</string>
+
+
+    <!-- REQUEST -->
+    <string name="request_accepted">Richiesta Accettata</string>
+    <string name="request_refused">Richiesta Rifiutata</string>
+
+    <!--end-->
+</resources>

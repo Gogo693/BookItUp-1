@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gmads.it.gmads_lab1">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/my_launcher_overbooking"
+        android:roundIcon="@mipmap/my_launcher_overbooking_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="BookItApp"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePackage.Home"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ToolsPackege.LocationProvider" />
+        <activity android:name=".ToolsPackege.PermissionManager" />
+        <activity
+            android:name=".UserPackage.ShowProfile"
+            android:label="@string/showProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserPackage.EditProfile"
+            android:configChanges="orientation"
+            android:label="@string/editProfile"
+            android:parentActivityName=".UserPackage.ShowProfile"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ToolsPackege.Tools" />
+        <activity
+            android:name=".BookPackage.AddBook"
+            android:label="@string/title_activity_add_book"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookPackage.SaveBook"
+            android:label="@string/title_activity_save_book"
+            android:parentActivityName=".BookPackage.AddBook"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToolsPackege.Scanner"
+            android:screenOrientation="portrait" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Map.main.MapActivity"
+            android:label="@string/title_activity_map_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookPackage.ShowBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyLibraryPackage.MyLibrary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserPackage.ShowUserProfile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Chat.ChatList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chat.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestPackage.RequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReviewPackage.AddReview"
+            android:parentActivityName=".RequestPackage.RequestActivity" />
+
+        <!-- FCM -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher_bookitapp_final_round" />
+
+        <service android:name=".Chat.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Chat.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

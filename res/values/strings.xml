@@ -1,0 +1,176 @@
+<resources>
+    <string name="title_activity_show_profile">showProfile</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+    <string name="bio">Bio</string>
+    <string name="bioEditP">Bio [max 250 char]</string>
+    <string name="description">-- empty --</string>
+    <string name="profileImage">Profile Image</string>
+    <string name="profileSettingButton"> Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="saveQuestion">\nDo you want to save changes?</string>
+    <string name="yes">Yes</string>
+    <string name="noInternet">\nNo internet connection. Check your internet connectivity and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="alertResetDone">\nReset done!</string>
+    <string name="alertUpd">\nProfile Updated!</string>
+    //stringhe da non tradurre
+    <string name="imageDirectory">ImageDir</string>
+    //
+    <string name="nameExample">Name</string>
+    <string name="surnameExample">Surname</string>
+    <string name="emailExample">example@p.com</string>
+    <string name="bioExample">-- empty --</string>
+    <string name="address">Bio</string>
+    <string name="selectImage">Change Image</string>
+    <string name="takeImage">\nTake Image</string>
+    <string name="selectFromCamera">Photo</string>
+    <string name="selectGallery">Gallery</string>
+    <string name="showProfile">Profile</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="saveProfile">Save Profile</string>
+    <string name="errorEmail">Error format email</string>
+    <string name="app_name">gMads</string>
+    <string name="addBookImage">\nAdd a book photo from</string>
+    <string name="title_activity_add_book">AddBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">example@p.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan2">Or insert ISBN</string>
+    <string name="scan3">Or scan ISBN</string>
+    <string name="title_activity_save_book">SaveBook</string>
+    <string name="addBook">Add Book</string>
+    <string name="choose_country">Choose a Country</string>
+    <string name="MyBooks">Added</string>
+    <string name="RentedBooks">Borrowed</string>
+    <string name="LentBooks">Lent</string>
+
+    <!--string for data not found-->
+    <string name="notFound">Not Found</string>
+    <string name="titleNotFound">Title: not Found</string>
+    <string name="authorNotFound">Author: not Found</string>
+    <string name="descriptionNotFound">Description: not Found</string>
+    <string name="publisherNotFound">Publisher: not Found</string>
+    <string name="pDateNotFound">Published Date: not Found</string>
+    <string name="categoryNotFound">Category: not Found</string>
+    <string name="facebook_application_id" translatable="false">172924670204019</string>
+    <string name="fb_login_protocol_scheme">fb172924670204019</string>
+
+    <string name="isbnerror">\nISBN length must be 13</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
+    <string name="bookTitle">Book Details</string>
+    <string name="home">Home</string>
+    <string name="scan">SCAN</string>
+    <string name="scan1">Enter book manually</string>
+    <string name="insert">Insert</string>
+    <!-- stringhe save book-->
+    <string name="sb_category">Category</string>
+    <string name="sb_data">Date</string>
+    <string name="sb_editor">Editor</string>
+    <string name="sb_author">Author</string>
+    <string name="sb_description">Description</string>
+    <string name="sb_title">Title</string>
+    <string name="edit_book">Edit Book</string>
+    <string name="sb_condition">Book Conditions</string>
+    <string name="sb_key">Key</string>
+    <string name="sb_value">Value</string>
+    <string name="sb_info">Additional Info</string>
+    <string name="sb_main_info">Main Info</string>
+
+    <string name="Uploading">Uploading...</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="plus">+</string>
+    <string name="permission_denied">camera permission denied</string>
+    <string name="name_require">Name required</string>
+    <string name="surname_required">Surname required</string>
+    <string name="email_required">Email required</string>
+    <string name="Failed_to_load_profile">Failed to load profile.</string>
+    <string name="failed_book_upload">Upload failed</string>
+    <string name="tab1">All</string>
+    <string name="tab2">Fiction</string>
+    <string name="tab3">Fantasy</string>
+    <string name="title_activity_map_search">Map</string>
+    <string name="country">Country</string>
+    <string name="country_required">Country required</string>
+    <string name="cap_required">CAP required</string>
+    <string name="space">\n</string>
+    <string name="today_is_going_to_be">Today is going to be</string>
+    <string name="map_api_key">AIzaSyBdnGCVMWokypaPplS8axxs-fFD1K9W-Oc</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="trip_starts_in_2_days">TRIP STARTS IN 2 DAYS</string>
+    <string name="this_weekend">This weekend we\'re going to:</string>
+    <string name="monkey_forest">Monkey Forest</string>
+    <string name="sign_up_for_this">SIGN UP FOR THIS</string>
+    <string name="mapPlaceholderTransition">mapPlaceholderTransition</string>
+    <string name="saveBook">Save Book</string>
+    <string name="of">of</string>
+    <string name="showBook">Book Details</string>
+
+    <!-- stringhe show profile -->
+    <string name="books">Books</string>
+    <string name="loaded">Loaded</string>
+    <string name="saved">Saved</string>
+
+    <!-- stringhe menu_book -->
+    <string name="reserve">Book It Up</string>
+    <string name="view_owner_profile">View profile</string>
+
+    <!-- stringhe book_page-->
+    <string name="bp_title">Title</string>
+    <string name="bp_editore">Editor</string>
+    <string name="bp_autore">Author</string>
+    <string name="bp_owner">Owner</string>
+    <string name="bp_categ">Category</string>
+    <string name="bp_data">Date</string>
+    <string name="bp_descr">Description</string>
+    <string name="bp_condiz">Conditions</string>
+    <string name="bp_notes">Others</string>
+    <string name="fui_name_hint" translation_description="Hint for last name input field">Nickname</string>
+    <string name="returnBook">Return Book</string>
+    <string name="request_sent">Request has been sent successfully!</string>
+    <!-- navbar -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">My Library</string>
+    <string name="nav_chat">Chat</string>
+
+    <string name = "message">Message</string>
+    <string name = "library">Library</string>
+    <string name = "book_info">More Info</string>
+    <string name = "book_photo">Add a book photo</string>
+    <string name = "showbookImage">Book photo</string>
+    <string name = "my_req">Sent</string>
+    <string name = "others_req">Received</string>
+    <string name = "request">Requests</string>
+    <string name = "write_review">Write review:</string>
+    <string name = "book">Book: </string>
+    <string name = "review">Review</string>
+    <string name = "reviews">Reviews</string>
+
+    <!-- FCM -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="accepted">Accepted</string>
+    <string name="refused">Refused</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="ooops_nothing_found">Ooops...Nothing found!</string>
+    <string name="reviewsent">Sent</string>
+    <string name="alreadyreviewed">Already Reviewed</string>
+    <string name="notify_accepted_request">Request Accepted</string>
+    <string name="notify_refused_request">Request Refused</string>
+    <string name="notify_new_request">New Request</string>
+    <string name="notify_end_request">Book Returned</string>
+    <string name="updatereview">Update your review</string>
+
+    <!-- REQUEST -->
+    <string name="request_accepted">Request Accepted</string>
+    <string name="request_refused">Request Refused</string>
+
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/newwhiteBackground"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+                <!--<ImageView
+                        android:id="@+id/avatar_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="183dp"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.9"
+                        android:src="@drawable/default_profile"/>-->
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="263dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/avatar_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerCrop"
+                        android:tint="#11000000"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.9" />
+
+
+
+                    <ImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="128dp"
+                        android:layout_height="183dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="65dp"
+                        android:background="#000000"
+                        android:contentDescription="@string/app_name"
+                        android:padding="1dp"
+                        android:scaleType="centerCrop"
+                        android:tint="#11000000"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.9" />
+
+
+                </FrameLayout>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:scrollbars="none"
+            app:behavior_overlapTop="30dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="30dp"
+                    app:cardElevation="8dp"
+                    app:contentPadding="16dp">
+
+                    <include layout="@layout/showbook_card0" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/card0"
+                    android:layout_margin="8dp"
+                    app:cardElevation="8dp"
+                    app:contentPadding="16dp">
+
+                    <include layout="@layout/showbook_card" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card1"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    app:cardElevation="8dp"
+                    app:contentPadding="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/sb_info"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv1"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/bp_condiz"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/condizioni"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv2"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/rounded_photo"
+                            android:padding="5dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/condizioni"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/bp_notes"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/notes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv4"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/rounded_photo"
+                            android:padding="5dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/photoTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/notes"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/showbookImage"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/photoBook"
+                            android:layout_width="128dp"
+                            android:layout_height="183dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@id/photoTitle"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/rounded_photo"
+                            android:padding="5dp"
+                            android:src="@drawable/default_addbook"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:tint="#11000000" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:title="">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

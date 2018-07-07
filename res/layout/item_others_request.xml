@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:padding="4dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/userphoto"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:baselineAlignBottom="false"
+            tools:src="@drawable/default_picture" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/userphoto"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:onClick="onClickProfile"
+            android:text="Nome tizio"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:drawableStart="@drawable/ic_star_black_24dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="-"
+            android:layout_toEndOf="@id/userphoto"
+            android:textSize="16sp" />
+
+        <!--<ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/no"
+            android:elevation="5dp"
+            android:onClick="onClickYes"
+            android:src="@drawable/ic_done_white_24px"
+            android:tint="@color/green" />
+
+        <ImageView
+            android:id="@+id/no"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:elevation="5dp"
+            android:onClick="onClickNo"
+            android:src="@drawable/ic_baseline_clear_24px" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rate"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/userphoto"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/accept_button"
+                    android:onClick="onClickYes"
+                    android:padding="4dp"
+                    android:text="ACCEPT"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/deny_button"
+                    android:onClick="onClickNo"
+                    android:padding="4dp"
+                    android:text="DENY"
+                    android:textAlignment="center" />
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/default_layout_margin_halved"
+    android:layout_marginRight="@dimen/default_layout_margin_halved">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/default_book" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textAppearance="@style/RobotoBold"
+            android:textColor="@color/item_place_title"
+            android:textSize="@dimen/textsize_medium"
+            android:textStyle="bold"
+            android:transitionName="titleTransition"
+            tools:text="Monkey Forest" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_layout_margin_halved"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/owner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/RobotoThin"
+                android:textColor="@color/item_place_subtitle"
+                android:textSize="@dimen/textsize_small"
+                tools:text="40000 IDR" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/roundedbutton"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorLink="@android:color/white"
+        app:layout_anchor="@id/container"
+        app:layout_anchorGravity="top|center" />
+
+</android.support.v7.widget.CardView>
