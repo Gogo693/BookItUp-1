@@ -4,7 +4,6 @@ Book Sharing Android Application
 Produced for the Mobile Application Developement course at Politechnic of Turin.
 
 Team members: <br>
-              
               <ul>
                 <li> Giorgio Crepaldi https://github.com/Gogo693 </li>
                 <li> Catia </li>
