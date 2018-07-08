@@ -25,3 +25,4 @@ Provided functionalities:
               </ul>
 
 Feel free to fork the project and improve it!
+This project was developed for educational purposes, I do not assure a completely bug-free code.
